@@ -10,7 +10,7 @@ import (
 	"io/ioutil"
 	"io"
 
-	"github.com/varunpatro/cinnabot/model"
+	"./model"
 
 )
 

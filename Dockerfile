@@ -8,7 +8,7 @@ FROM golang:1.9
 #RUN cat ~/id_rsa.pub >> ~/.ssh/authorized_keys
 #RUN cat ~/.ssh/authorized_keys
 #WORKDIR instruction sets the working directory for any RUN/CMD/ENTRYPOINT/COPY/ADD`
-WORKDIR /go/src/github.com/varunpatro/cinnabot 
+WORKDIR /go/src/github.com/swampertx/cinnabot 
 #Copies files from src and add it to dst
 RUN pwd
 #Should return nothing.
@@ -27,7 +27,7 @@ RUN ls -la
 
 
 
-WORKDIR /go/src/github.com/varunpatro/cinnabot/main
+WORKDIR /go/src/github.com/swampertx/cinnabot/main
 RUN go build
 RUN ls -la
 
