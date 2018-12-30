@@ -11,7 +11,7 @@ import (
 	"regexp"
 	"strconv"
 
-	"./model"
+	"github.com/pengnam/cinnabot/model"
 
 	_ "github.com/jinzhu/gorm/dialects/sqlite"
 	"github.com/patrickmn/go-cache"
